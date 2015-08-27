@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Login page</title>
+
+
+</head>
+<body>
+<form method = "post" action="output.jsp">
+<table>
+<tbody>
+<tr>
+<th align = "center" > Login </th>
+</tr>
+<tr> </tr>
+<tr> </tr>
+<tr> 
+<td>Username</td>
+<td> : </td>
+<td><input type ="text" name ="user_name" onblur="sendRequest(this.value)"">
+</td>
+<td><div id "user_div" ></div>
+</tr>
+<tr> </tr>
+<tr> 
+<td>Password</td>
+<td> : </td>
+<td><input type ="password" name ="password" onblur="sendRequest(this.value)">
+</td>
+</tr>
+<tr> </tr>
+<tr> </tr>
+<tr> <td><input type = "submit" name ="submit" value ="Login">
+</td>
+<td>
+
+<input type = "button" name ="cancel" value ="cancel">
+</td>
+</tr>
+
+</tbody>
+
+
+</table>
+</form>
+</body>
+</html>
